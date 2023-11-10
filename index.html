@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link href="https://fonts.cdnfonts.com/css/hk-groteks" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="icon.png" sizes="180x180">
+    <title>RainAme Flower Shop</title>
+</head>
+<body>
+    <header>
+        <h1>Rain</span><span style="color: skyblue">Ame</span></h1>
+        <nav class="menu">
+            <ul class="menu-list">
+                <li class="active">Home</li>
+                <li>Shop</li>
+                <li>About Us</li>
+                <li>Contacts</li>
+            </ul>
+            <button>
+                <i class="fa fa-times"></i>
+                <i class="fa fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+    <section class="a">
+        <div>
+            <i class="fa fa-search" class="icon"></i>
+        </div>
+        <div>
+            <i class="fa fa-user" class="icon"></i>
+            <i class="fa fa-shopping-bag" class="icon"></i>
+            <i class="fa fa-comment" class="icon"></i>
+        </div>
+        
+    </section>
+    <section class="b line">
+        <div>
+            <br>
+            <h1 class="a">SHADES</h1>
+        </div>
+        <div>
+            <br>
+            <h3 class="a">50</h3>
+            <h3 class="a">OF</h3>
+        </div>
+        <div>
+            <br>
+            <h1 class="a">FLOWERS</h1>
+        </div>
+    </section>
+    <section class="c">
+        <div>
+            <h1 class="b">Happiness blooms from within. <br> 
+                <button class="button">Shop Now</button>
+            </h1>
+        </div>
+            <div class="img">
+                <img src="flowers.png" alt="Flowers" class="img">
+            </div>
+    </section>
+    <script>
+        let menu = document.querySelector(".menu");
+        let menuBtn = document.querySelector(".menu button");
+        menuBtn.addEventListener("click", () => {
+          menu.classList.toggle("opened");
+        });
+    </script>
+
+</body>
+</html>
